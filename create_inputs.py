@@ -72,7 +72,7 @@ def create_case_log_prefix_traces_new(log, no_activities, min_length, prefix_len
             # if minimum prefix lenght is reached, create log and trace prefix
             if len(enc_trace_prefix) > min_length:
                 # add trace prefix - this is trivial
-                enc_trace_prefixes.append(enc_trace_prefix[-(prefix_length+1):-1])
+                enc_trace_prefixes.append(enc_trace_prefix[-(prefix_length):])
 
                 # look up original index of event in the log
                 original_index_of_event = event_map[(t, e)]
