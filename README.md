@@ -1,5 +1,9 @@
 # PPMwCoAttention
 
+## Setup
+The experimental setup was performed thusly:
+![Experimental setup](https://github.com/JohannesDeSmedt/PPMwCoAttention/blob/main/img/Overview.png)
+
 ## Implementation
 All code tested with the following Python (3.9) libraries:
 - scikit-learn 1.0.2
@@ -17,3 +21,10 @@ We used 3 datasets, as-is, from the following locations:
 - [BPI12](https://doi.org/10.4121/uuid:3926db30-f712-4394-aebc-75976070e91f)
 - [Sepsis](https://doi.org/10.4121/uuid:915d2bfb-7e84-49ad-a286-dc35f063a460)
 - [Italian helpdesk](https://doi.org/10.4121/uuid:0c60edf1-6f83-4e75-9367-4c63b3e9d5bb)
+
+## Outcomes
+Attention scores for individual prefixes can be generated similar to the ones for BPI12 and the Helpdesk log below:
+
+![Attention scores single prefix in BPI 12](https://github.com/JohannesDeSmedt/PPMwCoAttention/blob/main/img/Co-attention-bpi12.png)
+
+![Attention scores single prefix in helpdesk log](https://github.com/JohannesDeSmedt/PPMwCoAttention/blob/main/img/Co-attention-helpdesk.png)
