@@ -2,7 +2,7 @@
 
 ## Setup
 The experimental setup was performed thusly:
-![Experimental setup](https://github.com/JohannesDeSmedt/PPMwCoAttention/blob/main/img/Overview.png)
+![Experimental setup](https://github.com/JohannesDeSmedt/PPMwCoAttention/blob/main/img/NSP_RT_overview.png)
 
 ## Implementation
 All code tested with the following Python (3.9) libraries:
